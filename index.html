@@ -6,9 +6,200 @@
     <title>Canvas tutorial</title>
     <script>
         function draw() {
-            var canvas = document.getElementById('tutorial');
-            if (canvas.getContext) {
-                var ctx = canvas.getContext('2d');
+            // var canvasI1 = document.getElementById('i1');
+            // if (canvasI1.getContext) {
+            //     var ctx = canvasI1.getContext('2d');
+
+            //     ctx.fillRect(25, 25, 25, 25);
+            //     ctx.clearRect(45, 45, 60, 60);
+            //     ctx.strokeRect(50, 50, 50, 50);
+            // }
+
+            // 1. i1
+            var canvasI1 = document.getElementById('i1');
+            if (canvasI1.getContext) {
+                var ctx = canvasI1.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 25);
+            }
+            // 2. i2
+            var canvasI2 = document.getElementById('i2');
+            if (canvasI2.getContext) {
+                var ctx = canvasI2.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 50);
+            }
+
+            // 3. i3
+            var canvasI3 = document.getElementById('i3');
+            if (canvasI3.getContext) {
+                var ctx = canvasI3.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 75);
+            }
+
+            // 4. v3
+            var canvasV3 = document.getElementById('v3');
+            if (canvasV3.getContext) {
+                var ctx = canvasV3.getContext('2d');
+
+                ctx.fillRect(50, 25, 25, 50);
+                ctx.fillRect(25, 50, 25, 25);
+            }
+
+            // 5. i4
+            var canvasI4 = document.getElementById('i4');
+            if (canvasI4.getContext) {
+                var ctx = canvasI4.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 100);
+            }
+
+            // 6.j4
+            var canvasJ4 = document.getElementById('j4');
+            if (canvasJ4.getContext) {
+                var ctx = canvasJ4.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 25);
+                ctx.fillRect(25, 50, 75, 25);
+            }
+
+            // 7. square
+            var canvasSquare = document.getElementById('square');
+            if (canvasSquare.getContext) {
+                var ctx = canvasSquare.getContext('2d');
+
+                ctx.fillRect(25, 25, 50, 50);
+            }
+
+            // 8. z4
+            var canvasZ4 = document.getElementById('z4');
+            if (canvasZ4.getContext) {
+                var ctx = canvasZ4.getContext('2d');
+
+                ctx.fillRect(50, 25, 25, 50);
+                ctx.fillRect(25, 50, 25, 50);
+            }
+
+            // 9. t4
+            var canvasT4 = document.getElementById('t4');
+            if (canvasT4.getContext) {
+                var ctx = canvasT4.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 75);
+                ctx.fillRect(50, 50, 25, 25);
+            }
+
+            // 10. c
+            var canvasC = document.getElementById('c');
+            if (canvasC.getContext) {
+                var ctx = canvasC.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 25);
+                ctx.fillRect(25, 50, 75, 25);
+                ctx.fillRect(75, 25, 25, 25);
+            }
+
+            // 11. w
+            var canvasW = document.getElementById('w');
+            if (canvasW.getContext) {
+                var ctx = canvasW.getContext('2d');
+
+                ctx.fillRect(25, 25, 50, 25);
+                ctx.fillRect(50, 50, 50, 25);
+                ctx.fillRect(75, 75, 25, 25);
+            }
+
+            // 12. i5
+            var canvasI5 = document.getElementById('i5');
+            if (canvasI5.getContext) {
+                var ctx = canvasI5.getContext('2d');
+
+                ctx.fillRect(25, 25, 125, 25);
+            }
+
+            // 13. j5
+            var canvasJ5 = document.getElementById('j5');
+            if (canvasJ5.getContext) {
+                var ctx = canvasJ5.getContext('2d');
+
+                ctx.fillRect(25, 25, 25, 25);
+                ctx.fillRect(25, 50, 100, 25);
+            }
+
+            // 14. t5
+            var canvasT5 = document.getElementById('t5');
+            if (canvasT5.getContext) {
+                var ctx = canvasT5.getContext('2d');
+
+                ctx.fillRect(75, 25, 25, 75);
+                ctx.fillRect(25, 50, 50, 25);
+            }
+
+            // 15. v5
+            var canvasV5 = document.getElementById('v5');
+            if (canvasV5.getContext) {
+                var ctx = canvasV5.getContext('2d');
+
+                ctx.fillRect(25, 25, 75, 25);
+                ctx.fillRect(75, 50, 25, 50);
+            }
+
+            // 16. x
+            var canvasX = document.getElementById('x');
+            if (canvasX.getContext) {
+                var ctx = canvasX.getContext('2d');
+
+                ctx.fillRect(50, 25, 25, 25);
+                ctx.fillRect(50, 25, 75, 25);
+                ctx.fillRect(75, 25, 25, 25);
+            }
+
+            // 17. k5
+            var canvasK5 = document.getElementById('k5');
+            if (canvasK5.getContext) {
+                var ctx = canvasK5.getContext('2d');
+
+                ctx.fillRect(50, 25, 25, 25);
+                ctx.fillRect(25, 50, 50, 25);
+                ctx.fillRect(50, 75, 50, 25);
+            }
+
+            // 18. z5
+            var canvasZ5 = document.getElementById('z5');
+            if (canvasZ5.getContext) {
+                var ctx = canvasZ5.getContext('2d');
+
+                ctx.fillRect(50, 25, 50, 25);
+                ctx.fillRect(50, 50, 25, 25);
+                ctx.fillRect(25, 75, 50, 25);
+            }
+
+            // 19. z5wide
+            var canvasZ5wide = document.getElementById('z5wide');
+            if (canvasZ5wide.getContext) {
+                var ctx = canvasZ5wide.getContext('2d');
+
+                ctx.fillRect(25, 25, 75, 25);
+                ctx.fillRect(75, 50, 50, 25);
+            }
+
+            // 20. p
+            var canvasP = document.getElementById('p');
+            if (canvasP.getContext) {
+                var ctx = canvasP.getContext('2d');
+
+                ctx.fillRect(25, 25, 50, 50);
+                ctx.fillRect(25, 75, 25, 25);
+            }
+
+            // 21. y
+            var canvasY = document.getElementById('y');
+            if (canvasY.getContext) {
+                var ctx = canvasY.getContext('2d');
+
+                ctx.fillRect(50, 25, 25, 100);
+                ctx.fillRect(25, 50, 25, 25);
             }
         }
     </script>
@@ -20,7 +211,31 @@
 </head>
 
 <body onload="draw();">
-    <canvas id="tutorial" width="150" height="150"></canvas>
+    <canvas id="i1" width="150" height="150">1</canvas>
+    <canvas id="i2" width="150" height="150">2</canvas>
+    <canvas id="i3" width="150" height="150">3</canvas>
+    <canvas id="v3" width="150" height="150">4</canvas>
+    <canvas id="i4" width="150" height="150">5</canvas>
+    <br>
+    <canvas id="j4" width="150" height="150">6</canvas>
+    <canvas id="square" width="150" height="150">7</canvas>
+    <canvas id="z4" width="150" height="150">8</canvas>
+    <canvas id="t4" width="150" height="150">9</canvas>
+    <canvas id="c" width="150" height="150">10</canvas>
+    <br>
+    <canvas id="w" width="150" height="150">11</canvas>
+    <canvas id="i5" width="150" height="150">12</canvas>
+    <canvas id="j5" width="150" height="150">13</canvas>
+    <canvas id="t5" width="150" height="150">14</canvas>
+    <canvas id="v5" width="150" height="150">15</canvas>
+    <br>
+    <canvas id="x" width="150" height="150">16</canvas>
+    <canvas id="k5" width="150" height="150">17</canvas>
+    <canvas id="z5" width="150" height="150">18</canvas>
+    <canvas id="z5wide" width="150" height="150">19</canvas>
+    <canvas id="p" width="150" height="150">20</canvas>
+    <br>
+    <canvas id="y" width="150" height="150">21</canvas>
 </body>
 
 </html>
